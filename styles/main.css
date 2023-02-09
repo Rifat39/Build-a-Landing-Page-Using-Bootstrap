@@ -1,0 +1,26 @@
+header a {
+  color: #0d6efd !important;
+}
+.banner-img-1 {
+  background-image: url("../image/carousel/3.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.banner-img-2 {
+  background-image: url("../image/carousel/4.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.banner-img-3 {
+  background-image: url("../image/carousel/5.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.client-img {
+  width: 160px;
+}
+.rifat a {
+  text-decoration: none;
+  color: #0c2e8a;
+  font-weight: bold;
+}

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Landing Page</title>
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script
+      src="https://kit.fontawesome.com/ed0c74a592.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light container">
+          <div class="container-fluid">
+            <h1 class="text-primary fw-bold display-4">
+              Reve<span class="text-secondary">al</span>
+            </h1>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Service
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Log in</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <section>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="banner-img-1 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="display-3 fw-bold text-primary">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >Your ideas</span
+                    >
+                    <br />
+                    happen!
+                  </h1>
+                  <p class="text-primary">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aut aspernatur labore repudiandae necessitatibus. Totam
+                    alias, blanditiis facere possimus cupiditate similique.
+                  </p>
+                  <button class="btn btn-primary mx-4">Get Strated</button
+                  ><button class="btn btn-secondary">Our Project</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img-2 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="display-3 fw-bold text-primary">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >Your ideas</span
+                    >
+                    <br />
+                    happen!
+                  </h1>
+                  <p class="text-primary">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aut aspernatur labore repudiandae necessitatibus. Totam
+                    alias, blanditiis facere possimus cupiditate similique.
+                  </p>
+                  <button class="btn btn-primary mx-4">Get Strated</button
+                  ><button class="btn btn-secondary">Our Project</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img-3 d-flex justify-content-center align-items-center"
+              >
+                <div class="text-center">
+                  <h1 class="display-3 fw-bold text-primary">
+                    Making
+                    <span class="text-secondary text-decoration-underline"
+                      >Your ideas</span
+                    >
+                    <br />
+                    happen!
+                  </h1>
+                  <p class="text-primary">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Aut aspernatur labore repudiandae necessitatibus. Totam
+                    alias, blanditiis facere possimus cupiditate similique.
+                  </p>
+                  <button class="btn btn-primary mx-4">Get Strated</button
+                  ><button class="btn btn-secondary">Our Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="container mt-5 py-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <img class="w-100 img-fluid" src="image/about-img.jpg" alt="" />
+          </div>
+          <div class="col-md-6">
+            <h2 class="fw-bold text-primary display-">Who we are</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+              maxime, officia soluta est hic accusamus nostrum quo at
+              necessitatibus in?
+            </p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
+                in.
+              </li>
+              <li>
+                Quas laborum magni maiores. Quibusdam, cupiditate doloribus.
+                Quaerat, maxime sed.
+              </li>
+              <li>
+                Autem error aut iste recusandae illo doloremque quasi nostrum
+                expedita.
+              </li>
+              <li>
+                Temporibus accusantium reiciendis tempora debitis molestias
+                eveniet consectetur quia possimus.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <h2 class="text-primary fw-bold display-6">Services</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+          quis sapiente rem aspernatur dolorum corporis. Nihil ex iure excepturi
+          saepe. Corrupti dignissimos architecto repudiandae sequi aliquid
+          minima mollitia sunt officia, quod doloremque a tempora, enim impedit.
+          Fugiat tempora in sed minus obcaecati facilis id aliquid suscipit,
+          nulla officia autem, nostrum natus cum dignissimos consequatur ab,
+          accusantium culpa! Repellat aliquid nisi impedit iste, dicta animi
+          culpa ad quis, voluptate accusamus maiores atque iusto, nemo facere
+          libero optio consequuntur dolore doloribus. Mollitia quae modi
+          assumenda ab temporibus beatae cupiditate, iure necessitatibus a
+          ratione, tempore illo eius repudiandae nam itaque officiis, quam
+          quaerat.
+        </p>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div
+              class="d-flex justify-content-center align-items-center shadow-lg rounded p-3 my-3"
+            >
+              <div class="me-3">
+                <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+              </div>
+              <div>
+                <h3 class="text-secondary">Digital Transforming</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Explicabo praesentium assumenda, porro alias dolorum
+                  architecto quia nemo dolorem aspernatur voluptatem, inventore
+                  delectus ipsum omnis sed excepturi debitis non, iusto numquam.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center shadow-lg rounded p-3 my-3"
+            >
+              <div class="me-3">
+                <i class="fa-solid fa-microchip fa-4x text-secondary"></i>
+              </div>
+              <div>
+                <h3 class="text-secondary">IT Information</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Explicabo praesentium assumenda, porro alias dolorum
+                  architecto quia nemo dolorem aspernatur voluptatem, inventore
+                  delectus ipsum omnis sed excepturi debitis non, iusto numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="d-flex justify-content-center align-items-center shadow-lg rounded p-3 my-3"
+            >
+              <div class="me-3">
+                <i class="fa-solid fa-swatchbook fa-4x text-secondary"></i>
+              </div>
+              <div>
+                <h3 class="text-secondary">UX/UI Design</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Explicabo praesentium assumenda, porro alias dolorum
+                  architecto quia nemo dolorem aspernatur voluptatem, inventore
+                  delectus ipsum omnis sed excepturi debitis non, iusto numquam.
+                </p>
+              </div>
+            </div>
+            <div
+              class="d-flex justify-content-center align-items-center shadow-lg rounded p-3 my-3"
+            >
+              <div class="me-3">
+                <i
+                  class="fa-solid fa-magnifying-glass-chart fa-4x text-secondary"
+                ></i>
+              </div>
+              <div>
+                <h3 class="text-secondary">Business Analysis</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Explicabo praesentium assumenda, porro alias dolorum
+                  architecto quia nemo dolorem aspernatur voluptatem, inventore
+                  delectus ipsum omnis sed excepturi debitis non, iusto numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-5 py-5">
+        <h2 class="fw-bold text-primary display-6">Clients</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+          consequatur dolor ipsam nesciunt optio consequuntur suscipit libero
+          tenetur illum. Suscipit labore rerum eveniet aut perferendis facilis
+          nam dolores hic ipsam.
+        </p>
+        <div class="d-flex flex-wrap justify-content-between">
+          <img class="client-img" src="image/clients/client-1.png" alt="" />
+          <img class="client-img" src="image/clients/client-2.png" alt="" />
+          <img class="client-img" src="image/clients/client-3.png" alt="" />
+          <img class="client-img" src="image/clients/client-4.png" alt="" />
+          <img class="client-img" src="image/clients/client-5.png" alt="" />
+          <img class="client-img" src="image/clients/client-6.png" alt="" />
+          <img class="client-img" src="image/clients/client-7.png" alt="" />
+          <img class="client-img" src="image/clients/client-8.png" alt="" />
+        </div>
+      </section>
+      <section class="bg-primary py-4 my-5">
+        <div class="container text-white">
+          <h2>Call to Action</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+            architecto quaerat, esse minus suscipit excepturi debitis aperiam
+            nam atque! Illo perspiciatis laborum ducimus minus vel tempora quia,
+            ipsa esse, dolores eius nemo, quo inventore qui. Facilis sunt
+            consequatur neque libero hic corporis, obcaecati, consequuntur,
+            explicabo nam optio consectetur vero. Perspiciatis.
+          </p>
+          <button class="btn btn-outline-light">call to Action</button>
+        </div>
+      </section>
+      <section class="container my-5 py-5">
+        <h2 class="fw-bold text-primary display-6">Our Team</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea quaerat
+          cupiditate soluta voluptatum in ipsa!
+        </p>
+        <div>
+          <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="text-center pt-4">
+                  <img
+                    src="image/team-1.jpg"
+                    class="card-img-top w-50 border rounded-circle border-primary"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-secondary">Walter White</h5>
+                  <p class="card-text"><em>Cheif Executive officer</em></p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Labore ipsum sint harum odio architecto laudantium earum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="text-center pt-4">
+                  <img
+                    src="image/team-2.jpg"
+                    class="card-img-top w-50 border rounded-circle border-primary"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-secondary">Walter White</h5>
+                  <p class="card-text"><em>Cheif Executive officer</em></p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Labore ipsum sint harum odio architecto laudantium earum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="text-center pt-4">
+                  <img
+                    src="image/team-3.jpg"
+                    class="card-img-top w-50 border rounded-circle border-primary"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-secondary">Walter White</h5>
+                  <p class="card-text"><em>Cheif Executive officer</em></p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Labore ipsum sint harum odio architecto laudantium earum
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <div class="text-center pt-4">
+                  <img
+                    src="image/team-4.jpg"
+                    class="card-img-top w-50 border rounded-circle border-primary"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title text-secondary">Walter White</h5>
+                  <p class="card-text"><em>Cheif Executive officer</em></p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Labore ipsum sint harum odio architecto laudantium earum
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container my-5 py-5">
+        <h2 class="text-primary fw-bold display-6">Contact Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          voluptate doloremque doloribus, dolorum sed facere ut corporis
+          accusamus commodi officiis dicta autem ea distinctio, ex repudiandae
+          iure harum odit fugiat?
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="d-flex align-items-center my-3">
+              <i class="fa-solid fa-phone fa-2x text-secondary"></i>
+              <div class="ms-3">
+                <h5 class="text-secondary">Phone Number</h5>
+                <h6 class="text-primary fw-bold">+7678975644</h6>
+              </div>
+            </div>
+            <div class="d-flex align-items-center my-3">
+              <i
+                class="fa-solid fa-envelope-open-text fa-2x text-secondary"
+              ></i>
+              <div class="ms-3 rifat">
+                <h5 class="text-secondary">Email</h5>
+                <h6 class="text-primary fw-bold">
+                  <a href="#">rif@gmail.com</a>
+                </h6>
+              </div>
+            </div>
+            <div class="d-flex align-items-center my-3">
+              <i class="fa-solid fa-location-dot fa-2x text-secondary"></i>
+              <div class="ms-3">
+                <h5 class="text-secondary">Address</h5>
+                <h6 class="text-primary fw-bold">#204 street,New York, USA</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="Email"
+                  class="form-control"
+                  placeholder="Your  Email"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  class="form-control my-3"
+                  placeholder="Subject"
+                />
+                <textarea
+                  type="text"
+                  class="form-control my-3"
+                  placeholder="Your message"
+                ></textarea>
+                <button class="btn btn-secondary">Send message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="mt-5 bg-primary text-white">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-3">
+            <h2 class="fw-bold display-4">Reveal</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Phone: 0174584544</p>
+            <p>info@revel.com</p>
+          </div>
+          <div class="col-md-2">
+            <h6 class="fw-bold">Useful Links</h6>
+            <p><a class="text-decoration-none text-white" href="#">Home</a></p>
+            <p><a class="text-decoration-none text-white" href="#">About</a></p>
+            <p>
+              <a class="text-decoration-none text-white" href="#"
+                >Contract Us</a
+              >
+            </p>
+            <p><a class="text-decoration-none text-white" href="#">Login</a></p>
+          </div>
+          <div class="col-md-2">
+            <h6 class="fw-bold">Our Services</h6>
+            <p>
+              <a class="text-decoration-none text-white" href="#"
+                >IT Services</a
+              >
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#"
+                >UX/UI Design</a
+              >
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#">Analysis</a>
+            </p>
+            <p>
+              <a class="text-decoration-none text-white" href="#">Marketing</a>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <h6 class="fw-bold">Join our Newsletter</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+              aliquam rerum, quis vitae nulla ipsa?
+            </p>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Email"
+                aria-label="Your Email"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn btn-outline-light"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="text-center">&copy; Copyright Revel.All rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!-- js script  -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
